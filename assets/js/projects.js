@@ -4,7 +4,7 @@ window.ARQEVIN_PROJECTS = [
     id: 'nuvanti',
     type: 'Independent project',
     category: 'E-commerce',
-    summary: 'An online storefront for the Nuvanti clothing brand, presenting its collections, product catalog, and brand story.',
+    summary: 'An independent e-commerce website for Nuvanti, a clothing brand. Its public site introduces the brand and provides an online-shop experience.',
     url: 'https://nuvanti-shop.pages.dev/'
   },
   {
