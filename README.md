@@ -38,7 +38,7 @@ The repository includes `robots.txt`, `sitemap.xml`, and `_headers`. The custom 
 .
 ├── assets/
 │   ├── css/site.css
-│   ├── js/                 # Navigation, contact preview, project summaries
+│   ├── js/                 # Navigation and project summaries
 │   ├── favicon.svg
 │   └── arqevin-social.svg
 ├── docs/                   # Launch playbook and client delivery templates
@@ -71,6 +71,6 @@ Then visit <http://localhost:8000>. A local HTTP server helps exercise the same 
 - `docs/CLIENT_QUESTIONNAIRE.md` — project discovery questions
 - `docs/STARTER_KITS.md` — architecture and setup checklists for common project types
 
-## Contact form
+## Contact
 
-The Contact page provides direct email and WhatsApp links. The quote form validates fields and displays a local preview message, but does not send or store inquiries. Use the direct links for real inquiries unless a form service is configured later. Never put private API keys or credentials in browser code.
+The Contact page and site footer provide direct email and WhatsApp links. Service calls to action open WhatsApp with a short, editable project prompt. The site needs no contact backend. Never put private API keys or credentials in browser code.

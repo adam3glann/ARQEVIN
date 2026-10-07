@@ -19,7 +19,7 @@ Use the short version on social profiles. Use the expanded version in introducti
 - Confirm the ARQEVIN name, logo, colors, and concise company description.
 - Keep the website on its current `pages.dev` address until a custom domain is selected.
 - Create and maintain company profiles on GitHub, LinkedIn, and Instagram; use matching descriptions and contact details.
-- The site has public email and WhatsApp links; make sure both are monitored before promoting them. The quote form is a preview and does not deliver submissions.
+- The site links directly to public email and WhatsApp contact methods; make sure both are monitored before promoting them.
 - Confirm the business's local registration, contracting, invoicing, and tax requirements with an appropriate local professional before accepting paid work.
 
 ### Portfolio
