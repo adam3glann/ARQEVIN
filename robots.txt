@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Add a sitemap URL when a production domain is selected.
+Sitemap: https://arqevin-fxw.pages.dev/sitemap.xml

@@ -21,6 +21,13 @@ Then open <http://localhost:8000>. A local server is recommended so absolute ass
 - `process.html` — six project stages
 - `contact.html` — quote form preview
 
+## Business and delivery materials
+
+- `docs/LAUNCH_PLAYBOOK.md` — positioning, first-client outreach, qualification, delivery, and growth roadmap
+- `docs/PROPOSAL_TEMPLATE.md` — reusable client proposal outline
+- `docs/CLIENT_QUESTIONNAIRE.md` — project discovery questions
+- `docs/STARTER_KITS.md` — reusable architecture and setup checklists for common project types
+
 ## Portfolio updates
 
 The project data is collected in `assets/js/projects.js`. The current work page keeps a readable static HTML fallback; the page updates repeated project summaries and case-study facts from that data file when JavaScript is available. Keep project labels accurate and verify feature claims, links, and screenshots before publishing.
@@ -46,7 +53,7 @@ Create a Pages project from the Git repository and deploy the static HTML files 
 - Build command: leave blank
 - Build output directory: `.` (repository root, where `index.html` is located)
 
-This workspace is not initialized as a Git repository yet. For Git-backed deployment, create a remote repository, initialize and push this folder, then connect that repository to Pages. No custom domain is required; the deployment gets a `pages.dev` URL. After the first deployment, use its URL to make `og:image` absolute and add `og:url`; set canonical URLs when the production domain is selected.
+The repository is connected to Cloudflare Pages and currently deploys at <https://arqevin-fxw.pages.dev/>. The static HTML uses that address for canonical URLs, the sitemap, and social metadata. If the Pages project name or public domain changes, update those URLs and redeploy.
 
 The `_headers` file sets baseline browser security headers for Cloudflare Pages.
 
@@ -56,4 +63,4 @@ The `_headers` file sets baseline browser security headers for Cloudflare Pages.
 - Add only screenshots and links that are authorized and working.
 - Connect and test the quote form; it is intentionally non-submitting now.
 - Review contact and company details before publication.
-- Add a sitemap and canonical URLs after selecting the public domain.
+- Update canonical, sitemap, and social metadata URLs if the public domain changes.
