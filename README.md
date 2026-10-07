@@ -73,4 +73,4 @@ Then visit <http://localhost:8000>. A local HTTP server helps exercise the same 
 
 ## Contact form
 
-The quote form currently validates fields and displays a local preview message. It does not send or store inquiries because no authorized business email or form endpoint has been provided. Connect and test a submission destination before advertising the form as a way to contact ARQEVIN. Never put private API keys or credentials in browser code.
+The Contact page provides direct email and WhatsApp links. The quote form validates fields and displays a local preview message, but does not send or store inquiries. Use the direct links for real inquiries unless a form service is configured later. Never put private API keys or credentials in browser code.

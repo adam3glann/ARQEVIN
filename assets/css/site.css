@@ -231,6 +231,11 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .contact-grid { display: grid; grid-template-columns: .72fr 1.3fr; gap: 10%; align-items: start; }
 .contact-aside h2 { margin: 15px 0; font-size: clamp(37px, 4vw, 51px); line-height: 1.1; font-weight: 600; }
 .contact-aside > p:not(.eyebrow):not(.aside-caption) { max-width: 370px; color: var(--ink-soft); font-size: 15px; }
+.direct-contact { display: grid; max-width: 390px; gap: 12px; margin-top: 28px; }
+.direct-contact .eyebrow { margin: 0 0 2px; }
+.direct-contact a { display: grid; gap: 3px; padding: 10px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 13px; font-weight: 700; text-decoration: none; }
+.direct-contact a span { color: var(--ink-soft); font-size: 14px; font-weight: 400; overflow-wrap: anywhere; }
+.direct-contact a:hover span { text-decoration: underline; text-underline-offset: 3px; }
 .form-status { display: flex; max-width: 390px; gap: 12px; margin-top: 35px; padding: 15px; background: #e9eadf; }
 .form-status > span { flex: 0 0 20px; display: grid; width: 20px; height: 20px; place-items: center; border: 1px solid #87972f; border-radius: 50%; color: #6d8124; font: 12px var(--mono); }
 .form-status p { margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.65; }
