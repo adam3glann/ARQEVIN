@@ -1,7 +1,8 @@
 (() => {
   const form = document.querySelector('#quote-form');
   const message = document.querySelector('#form-message');
-  if (!form || !message) return;
+  const previewButton = form?.querySelector('[data-preview-submit]');
+  if (!form || !message || !previewButton) return;
 
   const service = new URLSearchParams(window.location.search).get('service');
   const serviceField = form.elements.namedItem('service');
@@ -10,10 +11,14 @@
     if (matchingOption) serviceField.value = matchingOption.value;
   }
 
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
+  previewButton.addEventListener('click', () => {
     if (!form.reportValidity()) return;
-    message.textContent = 'This form is a preview and is not connected to a submission service. No information was sent. Configure a form endpoint before accepting inquiries.';
+    message.textContent = 'Required fields are complete. This is a local preview only, so no project details were sent or stored.';
     message.classList.add('is-visible');
+  });
+
+  form.addEventListener('input', () => {
+    message.textContent = '';
+    message.classList.remove('is-visible');
   });
 })();

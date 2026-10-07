@@ -1,30 +1,23 @@
-// Update project facts here after reviewing each source repository.
-// Static HTML copy remains available if JavaScript is disabled.
+// Keep these summaries aligned with the verified information shown on the work page.
 window.ARQEVIN_PROJECTS = [
   {
     id: 'nuvanti',
-    name: 'Nuvanti',
     type: 'Independent project',
     category: 'E-commerce',
-    summary: 'A clothing brand storefront with a focused product browsing and shopping experience.',
-    status: 'Case study in progress; implementation details need source verification.',
+    summary: 'An online storefront for the Nuvanti clothing brand, presenting its collections, product catalog, and brand story.',
     url: 'https://nuvanti-shop.pages.dev/'
   },
   {
     id: 'padelsync',
-    name: 'PadelSync',
     type: 'University team project',
-    category: 'Academic software engineering project',
-    summary: 'A university project associated with MIU course SWE230, created by a team of four.',
-    status: 'Purpose, features, and implementation details need source verification.'
+    category: 'MIU · SWE230',
+    summary: 'A four-student academic project for MIU course SWE230.'
   },
   {
     id: 'inventory-tracker',
-    name: 'Inventory & Sales Tracker',
     type: 'Academic project',
-    category: 'C++',
-    summary: 'A C++ console application listed as an academic project.',
-    status: 'Functionality and implementation details need source verification.'
+    category: 'C++ console application',
+    summary: 'A C++ console project focused on inventory and sales tracking.'
   }
 ];
 
@@ -38,16 +31,12 @@ for (const [index, project] of window.ARQEVIN_PROJECTS.entries()) {
   ];
   summaryTargets.filter(Boolean).forEach((node) => { node.textContent = project.summary; });
 
-  if (card) {
-    const eyebrow = card.querySelector('.case-content .eyebrow');
-    const type = card.querySelector('.case-meta strong');
-    if (eyebrow) eyebrow.textContent = `${String(index + 1).padStart(2, '0')} / ${project.type} · ${project.category}`;
-    if (type) type.textContent = project.type;
-    const status = card.querySelector('[data-project-status]');
-    if (status) status.textContent = project.status;
-    if (project.url) {
-      const link = card.querySelector('.case-meta a');
-      if (link) link.href = project.url;
-    }
+  if (!card) continue;
+  const eyebrow = card.querySelector('.case-content .eyebrow');
+  if (eyebrow) eyebrow.textContent = `${String(index + 1).padStart(2, '0')} / ${project.type} · ${project.category}`;
+
+  if (project.url) {
+    const link = card.querySelector('.case-meta a');
+    if (link) link.href = project.url;
   }
 }
