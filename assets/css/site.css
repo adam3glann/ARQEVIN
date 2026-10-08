@@ -99,7 +99,7 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .body-large { max-width: 690px; margin-bottom: 26px; color: var(--ink-soft); font-size: clamp(17px, 1.5vw, 20px); line-height: 1.7; }
 .arrow-link { display: inline-flex; align-items: center; gap: 16px; color: var(--ink); font-size: 13px; font-weight: 700; text-decoration: none; }
 .arrow-link span { transition: transform .18s ease; }
-.arrow-link:hover span { transform: translate(3px, -2px); }
+.arrow-link:hover span { transform: translateX(3px); }
 .services-section { background: var(--paper); }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 44px; }
 .section-heading h2 { margin: 15px 0 0; }
