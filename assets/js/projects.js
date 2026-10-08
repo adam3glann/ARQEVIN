@@ -6,7 +6,7 @@ window.ARQEVIN_PROJECTS = [
   },
   {
     id: 'padelsync',
-    summary: 'PadelSync is a four-student MIU SWE230 web app project for court availability, time-slot reservations, and admin management of courts and reservations.'
+    summary: 'A web-based padel court reservation and scheduling platform developed as a four-student academic project for MIU course SWE230.'
   },
   {
     id: 'restaurant-management',
