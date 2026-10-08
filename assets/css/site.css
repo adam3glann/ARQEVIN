@@ -351,3 +351,88 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+/* ARQEVIN dark editorial system */
+:root {
+  color-scheme: dark;
+  --paper: #101311;
+  --paper-deep: #171b18;
+  --ink: #f1f2ec;
+  --ink-soft: #b4bcb3;
+  --ink-muted: #818b82;
+  --line: #303832;
+  --lime: #d9fa45;
+  --lime-deep: #bddc2f;
+  --white: #1b201c;
+}
+body { background: var(--paper); }
+.site-header { background: rgba(16,19,17,.94); border-bottom-color: var(--line); }
+.primary-nav a { color: #c1c8c0; }
+.primary-nav a:hover, .primary-nav a[aria-current="page"] { color: var(--lime); }
+.primary-nav .nav-cta { background: var(--lime); color: #141811; }
+.primary-nav .nav-cta:hover { background: #e7ff81; color: #141811; }
+.button-dark { background: var(--lime); color: #151912; }
+.button-dark:hover { background: #e7ff81; }
+.button-text { color: var(--ink); }
+.hero { background: var(--paper); }
+.hero-copy h1 { max-width: 760px; font-size: clamp(57px, 8vw, 108px); letter-spacing: -.075em; }
+h1 em, h2 em, .statement em { color: var(--lime); }
+.hero-art { min-height: 470px; background: #191f1a; border: 1px solid #354039; }
+.hero-art::before, .hero-art::after { background: rgba(226,239,218,.07); }
+.orbit { border-color: rgba(226,239,218,.2); }
+.art-core { background: var(--lime); color: #151912; box-shadow: 0 0 0 18px rgba(217,250,69,.07); }
+.orbit-node { border-color: #191f1a; background: var(--lime); }
+.node-b, .node-c { background: #e9eee5; }
+.hero-bottom { border-color: var(--line); }
+.intro-section, .process-strip, .page-hero, .about-values, .contact-guidance, .process-note { background: #171c18; }
+.service-grid { gap: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.service-card { min-height: 290px; border-right: 1px solid var(--line); border-bottom: 0; border-left: 0; padding: 23px 25px 26px; }
+.service-card:first-child { border-left: 1px solid var(--line); }
+.service-card:hover { background: #1d241e; }
+.service-icon { color: var(--lime); }
+.work-section { background: #171c18; }
+.featured-project { background: #1a201c; }
+.project-info { padding: clamp(28px, 5vw, 68px); }
+.project-visual, .case-visual { border: 1px solid var(--line); }
+.visual-nuvanti { background: #deded5; color: #252923; }
+.visual-padel { background: #b9c9a8; color: #182019; }
+.visual-restaurant { background: #e9ddc9; color: #2c211a; }
+.work-secondary { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
+.mini-project { border-color: var(--line); }
+.mini-index, .principle-list article > span, .detail-index { color: var(--lime); }
+.difference-section { background: var(--paper); }
+.process-steps { border-color: var(--line); }
+.process-steps > div { border-color: var(--line); }
+.process-steps span { color: var(--lime); }
+.tech-section { border-color: var(--line); }
+.closing-cta { background: #d9fa45; color: #151912; }
+.closing-inner .eyebrow { color: #424b2f; }
+.closing-inner h2 em { color: #3d4922; }
+.button-light { background: #151912; color: var(--lime); }
+.button-light:hover { background: #26301b; }
+.cta-mark { color: rgba(20,25,17,.055); }
+.page-hero { border-bottom: 1px solid var(--line); }
+.detail-item, .process-detail-list article { border-color: var(--line); }
+.detail-copy li::marker { color: var(--lime); }
+.case-gallery img { background: #1b211d; border-color: var(--line); }
+.abstract-court { border-color: rgba(25,36,33,.5); }
+.visual-stamp { background: #171c18; color: var(--lime); }
+.contact-option, .contact-option-whatsapp { background: #1a201c; border-color: var(--line); color: var(--ink); }
+.contact-option:hover, .contact-option-whatsapp:hover { background: #232b24; }
+.contact-option .eyebrow { color: var(--ink-muted); }
+.process-detail-list article > span { border-color: #596344; color: var(--lime); }
+.value-grid, .value-grid article { border-color: var(--line); }
+.value-grid article > span { color: var(--lime); }
+.contact-guidance { border-top: 1px solid var(--line); }
+.about-note { background: #171c18; }
+.skip-link { background: var(--lime); color: #151912; }
+:focus-visible { outline-color: var(--lime); }
+@media (max-width: 700px) {
+  .primary-nav { background: #101311; border-color: var(--line); }
+  .menu-toggle { border-color: var(--line); }
+  .menu-toggle > span:not(.sr-only) { background: var(--ink); }
+  .service-card, .service-card:first-child { border: 0; border-bottom: 1px solid var(--line); }
+  .service-card:first-child { border-top: 1px solid var(--line); }
+  .process-steps > div { border-color: var(--line); }
+  .work-secondary { grid-template-columns: 1fr; }
+}
