@@ -2,7 +2,7 @@
 window.ARQEVIN_PROJECTS = [
   {
     id: 'nuvanti',
-    summary: 'An independent e-commerce website for Nuvanti, a clothing brand. Its public site introduces the brand and provides an online-shop experience.'
+    summary: 'A commercial e-commerce storefront project for fashion brand Nuvanti. Its live site presents the brand and its online shop.'
   },
   {
     id: 'padelsync',
