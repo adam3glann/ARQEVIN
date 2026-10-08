@@ -6,11 +6,11 @@ window.ARQEVIN_PROJECTS = [
   },
   {
     id: 'padelsync',
-    summary: 'A four-student MIU SWE230 team web app concept for court availability, reservations, and court administration.'
+    summary: 'PadelSync is a four-student MIU SWE230 web app project for court availability, time-slot reservations, and admin management of courts and reservations.'
   },
   {
     id: 'restaurant-management',
-    summary: 'Juicy Lucy staff screens for managing tables and menu items, then booking a guest, table, time, and meal selection.'
+    summary: 'Juicy Lucy staff tools for managing tables and menu items, booking guests, adding meals to reservations, and checking out orders.'
   }
 ];
 
