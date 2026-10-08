@@ -175,6 +175,8 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .detail-index { color: #859536; font: 12px var(--mono); }
 .detail-item h2 { margin: 14px 0 0; font-size: clamp(30px, 4vw, 46px); line-height: 1.08; font-weight: 600; }
 .detail-copy > p { max-width: 490px; margin: 0 0 16px; color: var(--ink-soft); font-size: 15px; }
+.detail-copy > .service-fit { margin-top: -5px; color: var(--ink-muted); font-size: 12px; }
+.service-fit strong { color: var(--lime); font-weight: 600; }
 .detail-copy ul { display: grid; gap: 8px; margin: 0 0 23px; padding-left: 18px; color: var(--ink-soft); font-size: 13px; }
 .detail-copy li::marker { color: #879c2a; }
 .work-list { background: var(--paper); }

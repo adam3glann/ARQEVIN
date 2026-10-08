@@ -2,15 +2,15 @@
 window.ARQEVIN_PROJECTS = [
   {
     id: 'nuvanti',
-    summary: 'A commercial e-commerce storefront project for fashion brand Nuvanti. Its live site presents the brand and its online shop.'
+    summary: 'Commercial e-commerce storefront for a fashion brand, presenting its collection and products in a live online shop.'
   },
   {
     id: 'padelsync',
-    summary: 'A four-student academic project for MIU course SWE230.'
+    summary: 'A four-student MIU SWE230 team web app concept for court availability, reservations, and court administration.'
   },
   {
     id: 'restaurant-management',
-    summary: 'Restaurant tables, menu items, and staff booking workflow screens.'
+    summary: 'Juicy Lucy staff screens for managing tables and menu items, then booking a guest, table, time, and meal selection.'
   }
 ];
 
