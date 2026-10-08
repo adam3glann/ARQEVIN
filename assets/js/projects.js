@@ -10,7 +10,7 @@ window.ARQEVIN_PROJECTS = [
   },
   {
     id: 'restaurant-management',
-    summary: 'Juicy Lucy staff tools for managing tables and menu items, booking guests, adding meals to reservations, and checking out orders.'
+    summary: 'A restaurant management interface for Juicy Lucy staff to manage tables and menu items, book guests, add meals to reservations, and check out orders.'
   }
 ];
 
