@@ -26,7 +26,8 @@ Use the short version on social profiles. Use the expanded version in introducti
 
 - Replace each case-study note only after checking the source project and confirming permission to show it.
 - Keep Nuvanti's project relationship accurately labeled.
-- Label PadelSync and Inventory & Sales Tracker as academic work.
+- Label PadelSync and Inventory & Sales Tracker as academic work. Its current gallery uses the supplied landing, booking, and court-management screenshots; the source code has not been reviewed, so describe only what those screens show.
+- Do not publish PadelSync's user-management or booking-history screenshots without first removing names, email addresses, and account information.
 - Use screenshots from the actual projects; identify any diagrams or concept visuals as illustrations.
 - Ask for approval before naming a client or showing private data, admin screens, or unreleased work.
 

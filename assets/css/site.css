@@ -190,6 +190,10 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .case-meta span { color: var(--ink-muted); font: 9px var(--mono); letter-spacing: .05em; text-transform: uppercase; }
 .case-meta strong, .case-meta a { color: var(--ink); font-size: 12px; font-weight: 600; text-decoration: none; }
 .case-meta a:hover { text-decoration: underline; }
+.case-gallery { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: -18px; }
+.case-gallery figure { min-width: 0; margin: 0; }
+.case-gallery img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border: 1px solid var(--line); background: #e5e7e5; }
+.case-gallery figcaption { padding-top: 9px; color: var(--ink-muted); font: 10px var(--mono); }
 .visual-padel { align-items: center; justify-content: center; background: #d7e1c7; }
 .abstract-court { position: absolute; width: 72%; height: 53%; border: 1px solid rgba(25,36,33,.45); transform: rotate(-18deg); }
 .court-one { top: 16%; left: 15%; }.court-two { right: 12%; bottom: 14%; transform: rotate(16deg); }
@@ -309,6 +313,7 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
   .case-study { grid-template-columns: 1fr; gap: 22px; }
   .case-study:nth-child(even) .case-visual, .case-study:nth-child(even) .case-content { order: initial; }
   .case-study .case-visual { min-height: 315px; }
+  .case-gallery { grid-column: auto; grid-template-columns: 1fr; gap: 18px; margin-top: 0; }
   .case-content { padding-inline: 1px; }
   .case-content h2 { font-size: 39px; }
   .statement { font-size: 34px; }
