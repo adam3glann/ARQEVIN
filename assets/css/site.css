@@ -130,7 +130,7 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .project-info > p:not(.eyebrow), .case-summary { max-width: 440px; margin-bottom: 21px; color: var(--ink-soft); font-size: 15px; line-height: 1.7; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 25px; }
 .tag-list span { padding: 6px 9px; border: 1px solid var(--line); color: var(--ink-soft); font: 9px var(--mono); }
-.work-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 20px; }
+.work-secondary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 20px; }
 .mini-project { display: grid; grid-template-columns: auto 1fr auto; gap: 17px; align-items: start; padding: 25px 4px 0; border-top: 1px solid #c7c9bf; }
 .mini-index { color: #819338; font: 12px var(--mono); }
 .mini-project .eyebrow { margin-bottom: 8px; font-size: 9px; }
@@ -202,6 +202,11 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
 .visual-stamp { position: relative; z-index: 1; display: grid; width: 112px; height: 112px; place-items: center; border-radius: 50%; background: var(--ink); color: var(--lime); font: 600 26px var(--display); letter-spacing: -.05em; }
 .visual-padel .visual-bottom, .visual-inventory .visual-bottom { position: absolute; right: 22px; bottom: 20px; left: 22px; }
 .visual-inventory { justify-content: center; background: #e4e5dd; }
+.visual-restaurant { align-items: center; justify-content: center; background: #f2eadc; }
+.restaurant-board { display: grid; width: min(100%, 360px); gap: 18px; padding: 27px; border: 1px solid #d6c5ac; background: #fffaf1; box-shadow: 10px 10px 0 #e6d7c2; color: #2c211a; }
+.restaurant-board span { color: #d83e46; font: 700 12px var(--display); letter-spacing: .08em; }
+.restaurant-board strong { font: 600 clamp(27px, 4vw, 43px)/1.05 var(--display); letter-spacing: -.04em; }
+.restaurant-board small { color: #82766c; font: 9px var(--mono); letter-spacing: .08em; }
 .inventory-graphic { display: grid; width: 100%; gap: 13px; padding: 25px; border: 1px solid #c1c5b8; background: rgba(255,255,255,.4); }
 .inventory-graphic span, .inventory-graphic strong { color: var(--ink-soft); font: 10px var(--mono); letter-spacing: .08em; }
 .inventory-graphic strong { font: 600 clamp(18px, 2.5vw, 27px) var(--display); letter-spacing: -.04em; }
@@ -251,6 +256,7 @@ h1 em, h2 em, .statement em { color: #788c48; font-style: normal; }
   .intro-grid, .page-hero-grid, .statement-grid, .about-note-inner { grid-template-columns: .55fr 1.45fr; gap: 6%; }
   .featured-project { grid-template-columns: 1fr 1fr; }
   .project-info { padding: 30px; }
+  .work-secondary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .difference-grid { gap: 7%; }
   .case-study { gap: 34px; }
   .detail-item { grid-template-columns: 34px 1fr 1fr; gap: 20px; }
