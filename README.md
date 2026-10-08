@@ -14,10 +14,9 @@ ARQEVIN is an independent software company building practical digital products a
 
 - **Nuvanti** — an independent clothing-brand storefront. [Visit the live store](https://nuvanti-shop.pages.dev/).
 - **PadelSync** — a four-student MIU SWE230 course project prototype, shown with selected landing, court-booking, and court-administration screens.
-- **Inventory & Sales Tracker** — an academic C++ console application.
 - **Restaurant Management System** — Juicy Lucy-branded screens for table and menu management and receptionist bookings.
 
-PadelSync and Inventory & Sales Tracker are academic work. Portfolio copy is limited to project context and the visible project screens; no personal contribution, production deployment, or business result is claimed.
+PadelSync is academic work. Portfolio copy is limited to project context and the visible project screens; no personal contribution, production deployment, or business result is claimed.
 
 ## Technology
 

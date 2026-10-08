@@ -27,7 +27,7 @@ Use the short version on social profiles. Use the expanded version in introducti
 - Replace each case-study note only after checking the source project and confirming permission to show it.
 - Keep Nuvanti's project relationship accurately labeled.
 - The Nuvanti gallery uses customer-facing storefront screens only; keep admin dashboard, roles, and permissions screens private unless there is a clear reason and approval to share them.
-- Label PadelSync and Inventory & Sales Tracker as academic work. Its current gallery uses the supplied landing, booking, and court-management screenshots; the source code has not been reviewed, so describe only what those screens show.
+- Label PadelSync as academic work. Its gallery uses the supplied landing, booking, and court-management screenshots; the source code has not been reviewed, so describe only what those screens show.
 - Do not publish PadelSync's user-management or booking-history screenshots without first removing names, email addresses, and account information.
 - The restaurant project gallery uses table, menu, and new-booking screens. Keep screenshots with visible guest or staff email addresses out of the public site unless they are redacted.
 - Use screenshots from the actual projects; identify any diagrams or concept visuals as illustrations.
