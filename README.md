@@ -26,6 +26,7 @@ The site includes the home, services, selected work, about, process, contact, an
 - **Nuvanti** — an independent clothing brand with a live e-commerce storefront: [visit the store](https://nuvanti-shop.pages.dev/).
 - **PadelSync** — a four-student academic project for MIU course SWE230, presented with selected landing page, court booking, and court administration screens. It is identified as a university team project.
 - **Restaurant Management System** — a Juicy Lucy-branded project showing table and menu management, receptionist bookings, meal selection, and checkout workflows.
+- **StockFlow ERP** — an inventory and business operations system in development. The ARQEVIN portfolio shows current inventory monitoring, product, and category screens, alongside additional sections visible in its navigation.
 
 Project descriptions are limited to information represented in this repository. PadelSync is academic work; the site does not claim individual authorship, a production deployment, or business results. Technologies for the showcased projects are omitted unless verified from their source code.
 

@@ -11,6 +11,10 @@ window.ARQEVIN_PROJECTS = [
   {
     id: 'restaurant-management',
     summary: 'A restaurant management interface for Juicy Lucy staff to manage tables and menu items, book guests, add meals to reservations, and check out orders.'
+  },
+  {
+    id: 'stockflow',
+    summary: 'StockFlow ERP is an inventory and business operations system in development. Current screens show inventory monitoring, product and category records, with additional sections for suppliers, customers, purchasing, sales, returns, employees, and reports.'
   }
 ];
 
